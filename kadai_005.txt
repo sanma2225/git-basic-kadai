@@ -1,0 +1,38 @@
+PS C:\Users\User> cd "C:\Users\User\Desktop\sanma"
+PS C:\Users\User\Desktop\sanma> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\User\Desktop\sanma
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/04/12      2:49                git_challenge      
+
+
+PS C:\Users\User\Desktop\sanma> cd git_challenge
+PS C:\Users\User\Desktop\sanma\git_challenge> git init
+Initialized empty Git repository in C:/Users/User/Desktop/sanma/git_challenge/.git/
+PS C:\Users\User\Desktop\sanma\git_challenge> git add hello_world.txt
+PS C:\Users\User\Desktop\sanma\git_challenge> git commit -m "最初のコ
+ミット"
+[main (root-commit) fb69c9d] 譛蛻昴・繧ｳ繝溘ャ繝
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\User\Desktop\sanma\git_challenge> git commit -m "二回目の
+コミット"
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello_world.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")     
+PS C:\Users\User\Desktop\sanma\git_challenge> git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello_world.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")  
