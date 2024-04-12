@@ -1,36 +1,44 @@
-PS C:\Users\User> cd "C:\Users\User\Desktop\sanma"
-PS C:\Users\User\Desktop\sanma> mkdir git_challenge
 
+User@WIN-UQ3G6FE303H MINGW64 ~
+$ cd "C:\Users\User\Desktop\sanma"
 
-    ディレクトリ: C:\Users\User\Desktop\sanma
+User@WIN-UQ3G6FE303H MINGW64 ~/Desktop/sanma
+$ mkdir git_challenge
 
+User@WIN-UQ3G6FE303H MINGW64 ~/Desktop/sanma
+$ cd git_challenge
 
-Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
-d-----        2024/04/12     13:42                git_challenge
-
-
-PS C:\Users\User\Desktop\sanma> cd git_challenge
-PS C:\Users\User\Desktop\sanma\git_challenge> git init
+User@WIN-UQ3G6FE303H MINGW64 ~/Desktop/sanma/git_challenge
+$ git init
 Initialized empty Git repository in C:/Users/User/Desktop/sanma/git_challenge/.git/
-PS C:\Users\User\Desktop\sanma\git_challenge> git add hello_world.txt
-PS C:\Users\User\Desktop\sanma\git_challenge> git commit -m "日本語訳を追記"    
-[main (root-commit) 10d098a] 譌･譛ｬ隱櫁ｨｳ繧定ｿｽ險
+
+User@WIN-UQ3G6FE303H MINGW64 ~/Desktop/sanma/git_challenge (main)
+$ git add hello_world.txt
+
+User@WIN-UQ3G6FE303H MINGW64 ~/Desktop/sanma/git_challenge (main)
+$ git commit -m "日本語訳を追記"
+[main (root-commit) 45f9881] 日本語訳を追記
  1 file changed, 1 insertion(+)
  create mode 100644 hello_world.txt
-PS C:\Users\User\Desktop\sanma\git_challenge> git add .
-PS C:\Users\User\Desktop\sanma\git_challenge> git commit -m "大文字を追記"
-[main 1cf1552] 螟ｧ譁・ｭ励ｒ霑ｽ險
+
+User@WIN-UQ3G6FE303H MINGW64 ~/Desktop/sanma/git_challenge (main)
+$ git add .
+
+User@WIN-UQ3G6FE303H MINGW64 ~/Desktop/sanma/git_challenge (main)
+$ git commit -m "大文字を追記"
+[main 27e6a04] 大文字を追記
  1 file changed, 2 insertions(+), 1 deletion(-)
-PS C:\Users\User\Desktop\sanma\git_challenge> git log
-commit 1cf1552c8273b90a9e4bdcbfacb62c73c47ba41d (HEAD -> main)
+
+User@WIN-UQ3G6FE303H MINGW64 ~/Desktop/sanma/git_challenge (main)
+$ git log
+commit 27e6a0449a49905941622228c9cc8172b4e1a424 (HEAD -> main)
 Author: sanma2225 <sanmaumashi@gmail.com>
-Date:   Fri Apr 12 13:53:16 2024 +0900
+Date:   Fri Apr 12 15:12:26 2024 +0900
 
     大文字を追記
 
-commit 10d098a97afda21c1b50b84071239e6318c97e1a
+commit 45f98812f1016d6d062b7d9b3128d8324fb66d69
 Author: sanma2225 <sanmaumashi@gmail.com>
-Date:   Fri Apr 12 13:50:46 2024 +0900
+Date:   Fri Apr 12 15:11:07 2024 +0900
 
     日本語訳を追記
